@@ -22,8 +22,9 @@ body {
   list-style: none;
 }
 .nav-text {
-  padding: 0.5rem 5rem;
-  border: 5px solid white;
+  margin: 2rem;
+  padding: 0.5rem;
+  border: 2px solid white;
   background-color: var(--primary-color);
   border-radius: 1rem;
   color: #231f20;
@@ -31,8 +32,24 @@ body {
   font-size: 3rem;
 }
 .nav-img {
-  padding: 0rem 5rem;
+  padding: 0.5rem 4rem;
 }
 .inline {
   display: inline;
+}
+/* ---text area--- */
+textarea {
+  width: 80%;
+  margin: 1rem;
+  padding: 1rem;
+  display: block;
+}
+/* output */
+#output {
+  border: 1px solid black;
+  width: 80%;
+  height: 2rem;
+  margin: 1rem;
+  padding: 1rem;
+  display: block;
 }
